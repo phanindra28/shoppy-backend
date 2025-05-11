@@ -5,7 +5,5 @@ import { LocalAuthGuard } from './guards/local-auth.guard';
 export class AuthController {
   @UseGuards(LocalAuthGuard)
   @Post('login')
-  login() {
-    return 'Login endpoint';
-  }
+  login() {}
 }
